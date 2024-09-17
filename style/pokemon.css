@@ -5,15 +5,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
 }
 body{
-    background: linear-gradient(#e66465, #595959,rgb(202, 202, 202));  
+    background: linear-gradient(#e66465, #595959,rgb(202, 202, 202) 0.25);  
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 50px 0;
     font-family: "PokemonHollow";
 }
@@ -22,3 +18,47 @@ p{
     padding: 50px;
     text-align: justify; 
 }
+.objet{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 30px;
+}
+.Pokeballround{
+    border: solid 2px black;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-image: url(../img/pokeball.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.SuperBallround{
+    border: solid 2px black;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-image: url(../img/SuperBall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.HonorBallround{
+    border: solid 2px black;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-image: url(../img/HonorBall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+/* .smallPokeballround{
+    width: 60px;
+    height: 60px;
+    translate: 200px 200px;
+    border-radius: 50px;
+    background-color: black;
+} */
