@@ -1,0 +1,31 @@
+   @font-face {
+    font-family: "PokemonHollow";
+    src: url(/pokemon/Pokemon\ Hollow.ttf);
+    }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    font-family: "PokemonHollow";
+}
+.round{
+    border: solid 2px black;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-image: url(../img/pokemon-1536849_1920.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex; align-items: center; justify-content: center;
+}
+.smallRound{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
